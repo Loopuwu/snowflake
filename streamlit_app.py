@@ -7,6 +7,7 @@ import pandas as pd
 # Write directly to the app
 st.title(":cup_with_straw: Customize your Smoothie :cup_with_straw:")
 #st.write("""Choose the fruits you want in your custom Smoothie !""")
+st.write("Test 1 2 1 2")
 
 name_on_order = st.text_input("Name on Smoothie:")
 st.write("The name of your Smoothie will be", name_on_order)
